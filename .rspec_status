@@ -1,0 +1,7 @@
+example_id                    | status | run_time        |
+----------------------------- | ------ | --------------- |
+./spec/coloregex_spec.rb[1:1] | passed | 0.00007 seconds |
+./spec/coloregex_spec.rb[1:2] | passed | 0.00164 seconds |
+./spec/coloregex_spec.rb[1:3] | passed | 0.00006 seconds |
+./spec/coloregex_spec.rb[1:4] | passed | 0.0001 seconds  |
+./spec/coloregex_spec.rb[1:5] | passed | 0.00181 seconds |
