@@ -8,7 +8,7 @@ script: bundle exec rspec
 deploy:
   provider: rubygems
   api_key:
-    secure:
+    secure: TW/kM2jxrPd2xAUsNtVDqbppwdzgruDGJfKcp/p/qMro6t0KtG6iU9JUmi8w44ivdfjCVmUCmj1SLUdyDK+9cYvP4VnNjcYVSKtGhtgu+jGmLiBpk3V486se97mn693FYmgW1mNh2v0gbeW4aqdu+UsgBq8scYO6Gn+9kqkUSgNgA+VfdxXaoUCT+pKggoZJXqj6HvqyWUyixkSpcDHCgPexD4xwmESalLDEIBDpsAtO9rNUO49PLRV68HVqtq/3F5DEwnKnU94t9wFZj0FQC0rDsa5zjcPSYMrS7dbxKWD/AZdVPMP6GA90noAJN3l05Dlfzh2I2oC4D7bH2gA4A/pC+9pJsvwHqjMbDOSz7htG2fQQdHzdF+IDcQ0z4cuWHAcY8GC1QIRvpTA54aIY5632dOGRgZo2ujZrkGiTPgHhqWb1G0JLR+M52Bgmmi0gfW3SC/C2TYXqL0RMHgYLH3iAWX5h+YVHHdPVelraKMglob+xnV3aQ0i4wagsqpcg2T18GNvFvhbCuktnm+P3mnwPDrBWO2vNnSAxGBrJyc4o7NjZGckjjE7XANjeseGoSnHJ0rNix811FY7mSmW7lzeBxSHwGuGqt7S4/AjBhePJ/Wanfi51NwQOXF+zbho3izS5bSphWykngFa5q86lMgqXVlAA+Y3jSjelCHrUSNU=
   gem: coloregex
   on:
     tags: true
