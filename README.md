@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/khalilgharbaoui/coloregex.svg?branch=master)](https://travis-ci.org/khalilgharbaoui/coloregex) [![Gem Version](https://badge.fury.io/rb/coloregex.svg)](https://badge.fury.io/rb/coloregex)
-# Cre
+# Coloregex
 This gem saves you from dealing with regex for colors, it contains all 147 named
 colors including `transparant`.
 And deals with any kind of color code: `hex`, `rgb`, `rgba`, `hsl`, `hsla`.
