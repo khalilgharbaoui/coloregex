@@ -5,7 +5,20 @@ colors including `transparant`.
 And deals with any kind of color code: `hex`, `rgb`, `rgba`, `hsl`, `hsla`.
 
 ## Usage
-- comming soon
+Nothing fancy here just require or drop the gem in Gemfile, you will have a new constant availeble: `COLOREGEX`  
+#### Example usage:
+```ruby
+class Person < ActiveRecord::Base
+  validates_format_of :color, with: COLOREGEX, on: :create
+end
+```
+Or:
+```ruby
+'#FF0000'.match?(COLOREGEX)
+#=> true
+'#FF000Q'.match?(COLOREGEX)
+#=> false
+```
 
 ## Installation
 Add this line to your application's Gemfile:
