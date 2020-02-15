@@ -1,11 +1,13 @@
-[![Build Status](https://travis-ci.org/khalilgharbaoui/coloregex.svg?branch=master)](https://travis-ci.org/khalilgharbaoui/coloregex) [![Gem Version](https://badge.fury.io/rb/coloregex.svg)](https://badge.fury.io/rb/coloregex)
-# Coloregex
-This gem saves you from dealing with regex for colors, it contains all 147 named
-colors including `transparant`.
+[![Build Status](https://travis-ci.org/khalilgharbaoui/coloregex.svg?branch=master)](https://travis-ci.org/khalilgharbaoui/coloregex) [![Gem Version](https://badge.fury.io/rb/coloregex.svg)](https://badge.fury.io/rb/coloregex)  
+
+[![coloRegex](coloRegex.png)](coloRegex.png)  
+
+The coloRegex gem saves you from dealing with regex for colors, it contains all 147 named
+colors including `transparent`.
 And deals with any kind of color code: `hex`, `rgb`, `rgba`, `hsl`, `hsla`.
 
 ## Usage
-Nothing fancy here just require or drop the gem in Gemfile, you will have a new constant availeble: `COLOREGEX`  
+Nothing fancy here just drop the gem in Gemfile, you will have a new constant availeble: `COLOREGEX`  
 #### Example usage:
 ```ruby
 class Person < ActiveRecord::Base
@@ -45,3 +47,6 @@ $ gem install coloregex
 
 ## License
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Credits
+- Thanks to Adil Yakubi for creating the cool illustration you see above.
