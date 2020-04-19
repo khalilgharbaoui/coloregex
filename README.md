@@ -45,4 +45,5 @@ $ gem install coloregex
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Credits
-- Thanks to Adil Yakubi for creating the cool illustration you see above.
+- Thanks to Adil Yakubi for creating the cool illustration you see above.  
+- Thanks to all the commentators & contributors to this gist [gist](https://gist.github.com/olmokramer/82ccce673f86db7cda5e)   
