@@ -20,7 +20,7 @@ And deals with any kind of color code: `hex`, `rgb`, `rgba`, `hsl`, `hsla` prope
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
 
   s.add_development_dependency 'rails', '~> 5.2'
-  
+ 
   s.add_development_dependency 'pry', '~> 0.11'
   s.add_development_dependency 'awesome_print', '~> 1.8'
   s.add_development_dependency 'rspec', '~> 3.8'

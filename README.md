@@ -7,7 +7,8 @@ colors including `transparent` and `currentColor`.
 And deals with any kind of color code: `hex`, `rgb`, `rgba`, `hsl`, `hsla`.
 
 ## Usage
-Nothing fancy here just require or drop the gem in your Gemfile, you will have a new constant available: `COLOREGEX`  
+Nothing fancy here after installation you'll have a new constant available: `COLOREGEX`  
+
 #### Example usage:
 ```ruby
 class Person < ActiveRecord::Base
@@ -23,18 +24,13 @@ Or:
 ```
 
 ## Installation
-Add this line to your application's Gemfile:
+For bundler add it to your Gemfile:  
 
 ```ruby
-gem 'coloregex', '~> 0.1.1'
-```
+gem 'coloregex', '~> 0.1.2'
+```  
 
-And then execute:
-```bash
-$ bundle
-```
-
-Or install it yourself as:
+For manual do:  
 ```bash
 $ gem install coloregex
 ```
