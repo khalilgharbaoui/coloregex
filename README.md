@@ -46,4 +46,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Credits
 - Thanks to Adil Yakubi for creating the cool illustration you see above.  
-- Thanks to all the commentators & contributors to this gist [gist](https://gist.github.com/olmokramer/82ccce673f86db7cda5e)   
+- Thanks to all the commentators & contributors to this [gist](https://gist.github.com/olmokramer/82ccce673f86db7cda5e)   
