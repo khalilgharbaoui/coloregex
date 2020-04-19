@@ -2,12 +2,12 @@
 
 [![coloRegex](coloRegex.png)](coloRegex.png)  
 
-The coloRegex gem saves you from dealing with regex for colors, it contains all 147 named
-colors including `transparent`.
+The coloRegex gem saves you from dealing with regex for colors, it contains all 148 named
+colors including `transparent` and `currentColor`.  
 And deals with any kind of color code: `hex`, `rgb`, `rgba`, `hsl`, `hsla`.
 
 ## Usage
-Nothing fancy here just drop the gem in Gemfile, you will have a new constant availeble: `COLOREGEX`  
+Nothing fancy here just require or drop the gem in your Gemfile, you will have a new constant available: `COLOREGEX`  
 #### Example usage:
 ```ruby
 class Person < ActiveRecord::Base
@@ -26,7 +26,7 @@ Or:
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'coloregex', '~> 0.1.0'
+gem 'coloregex', '~> 0.1.1'
 ```
 
 And then execute:
